@@ -39,6 +39,12 @@ namespace _9A713032Midterm
             int a = ran.Next(1, 10);
             int index = a;
             picResult.Image = list[index];
+            string msg = "";
+            for (int i = 0; i < 1; i++)
+            {
+                msg = DateTime.Now + "使用過一次 ";
+            }
+            rtb.Text += msg + "\n";
         }
     }
 }

@@ -70,7 +70,7 @@ namespace _9A713032Midterm
             // 
             // rtb
             // 
-            this.rtb.Font = new System.Drawing.Font("新細明體", 40F);
+            this.rtb.Font = new System.Drawing.Font("新細明體", 12F);
             this.rtb.Location = new System.Drawing.Point(493, 211);
             this.rtb.Name = "rtb";
             this.rtb.Size = new System.Drawing.Size(225, 285);
