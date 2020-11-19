@@ -36,7 +36,7 @@ namespace _9A713032Midterm
         private void btndraw_Click(object sender, EventArgs e)
         {
             Random ran = new Random();
-            int a = ran.Next(1, 10);
+            int a = ran.Next(0, 10);
             int index = a;
             picResult.Image = list[index];
             string msg = "";
